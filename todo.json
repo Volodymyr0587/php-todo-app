@@ -1,8 +1,8 @@
 {
-    "First TODO": {
-        "comleted": false
-    },
     "Second TODO": {
-        "comleted": false
+        "completed": false
+    },
+    "New TODO": {
+        "completed": false
     }
 }
