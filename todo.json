@@ -1,8 +1,17 @@
 {
     "First TODO": {
-        "comlited": false
+        "comleted": false
     },
     "Keep learnig": {
-        "comlited": false
+        "comleted": false
+    },
+    "Second TODO": {
+        "comleted": false
+    },
+    "New TODO": {
+        "comleted": false
+    },
+    "Something": {
+        "comleted": false
     }
 }

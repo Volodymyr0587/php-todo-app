@@ -1,9 +1,5 @@
 <?php
 
-// echo '<pre>';
-// var_dump($_POST);
-// echo '<pre>';
-
 $todoName = $_POST["todo_name"] ?? '';
 $todoName = trim($todoName);
 
@@ -14,6 +10,8 @@ if ($todoName) {
     } else {
         $jsonArray = [];
     }
-    $jsonArray[$todoName] = ['comlited' => false];
+    $jsonArray[$todoName] = ['comleted' => false];
     file_put_contents('todo.json', json_encode($jsonArray, JSON_PRETTY_PRINT));
 }
+
+header('Location: index.php');
